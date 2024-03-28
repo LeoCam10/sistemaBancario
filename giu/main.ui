@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>bancoW - transferencias</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="btnRealizarTransferencias"/>
+    <addaction name="btnReportarTransferencia"/>
+    <addaction name="btnHistorialTransferencias"/>
+   </widget>
+   <widget class="QMenu" name="menuCreditos">
+    <property name="title">
+     <string>Creditos</string>
+    </property>
+    <addaction name="btnProgramadores"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuCreditos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="btnRealizarTransferencias">
+   <property name="text">
+    <string>Realizar Transferencias</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="btnReportarTransferencia">
+   <property name="text">
+    <string>Reportar Tranferencias</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+J</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="btnHistorialTransferencias">
+   <property name="text">
+    <string>Historial Transferencia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="btnProgramadores">
+   <property name="text">
+    <string>Programadores</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
