@@ -9,3 +9,4 @@ class Banco():
         
         self.app.exec()
 # esto es una prueba
+#sigo haciendo pruebas
