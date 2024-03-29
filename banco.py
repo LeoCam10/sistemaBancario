@@ -8,4 +8,4 @@ class Banco():
         self.login = Login()
         
         self.app.exec()
-        
+# esto es una prueba
